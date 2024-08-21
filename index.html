@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Featherr Icons -->
+      <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- title -->
+    <title>Website</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="nav-logo"><span>Kelompok</span>3</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="nav-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="ham-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+       <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+       </div>
+      <!-- Search Form End -->
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Perkenalkan Kami dari Kelompok 3</h1>
+        <p>Berikut adalah Website sederhana kami</p>
+      </main>
+    </section>
+    <!-- hero section End -->
+
+    <!-- Biodata -->
+     <section class="about" id="about">
+
+      <div class="container">
+        <h2>About Me</h2>
+
+        <div class="data-container">
+          <div class="data-agus">
+            <img src="img/agus.jpg" alt="agus">
+            <div class="btn-agus">
+              <button id="btn">Info Agus</button>
+            </div>
+          <table id="tabel1" style="display: none;">
+            <tr>
+              <th>Nama</th>
+              <th>Kelas</th>
+              <th>Jurusan</th>
+            </tr>
+    
+            <!-- Agus Dana -->
+            <tr>
+              <td>Nyoman Agus</td>
+              <td>XI RPL 3</td>
+              <td>RPL</td>
+            </tr>
+            </tr>
+          </table>
+          <div class="ig-agus">
+            <a href="https://www.instagram.com/aagusss_7/?igsh=M3hvbm81Mjg3ZG44"><i data-feather="instagram"></i></a>
+          </div>
+          </div>
+  
+          <!-- Risky -->
+          <div class="data-risky">
+            <img src="img/Risky.jpg" alt="risky">
+            <div class="btn-risky">
+              <button id="btn2">Info Risky</button>
+            </div>
+          <table id="tabel2" style="display: none;">
+            <tr>
+              <th>Nama</th>
+              <th>Kelas</th>
+              <th>Jurusan</th>
+            </tr>
+    
+            <tr>
+              <td>Risky</td>
+              <td>XI RPL 3</td>
+              <td>RPL</td>
+            </tr>
+            </tr>
+          </table>
+          <div class="ig-risky">
+            <a href="https://www.instagram.com/hehehe.9b/"><i data-feather="instagram"></i></a>
+          </div>
+          </div>
+          
+          <!-- Gung jaya -->
+      <div class="data-gung">
+            <img src="img/Gung Jaya.jpg" alt="gungjaya">
+            <div class="btn-ggjaya">
+              <button id="btn3">Info Gung jaya</button>
+            </div>
+          <table id="tabel3" style="display: none;">
+            <tr>
+              <th>Nama</th>
+              <th>Kelas</th>
+              <th>Jurusan</th>
+            </tr>
+    
+            <tr>
+              <td>Gung Jaya</td>
+              <td>XI RPL 3</td>
+              <td>RPL</td>
+            </tr>
+            </tr>
+          </table>
+          <div class="ig-ggjaya">
+            <a href="https://www.instagram.com/yaa___32"><i data-feather="instagram"></i></a>
+          </div>
+          </div>
+         
+        </div>
+      </div>
+     </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span>Kami</h2>
+      <p>Jika ingin bertanya lebih lanjut, bisa kontak sosial media kami</p>
+      <div class="sos-media">
+      </div>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126214.40561982192!2d115.14187118120618!3d-8.672504759062704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0e5e80db%3A0xe27334e8ccb9374a!2sDenpasar%2C%20Kota%20Denpasar%2C%20Bali!5e0!3m2!1sid!2sid!4v1692105504058!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-grup">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No-hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">agus dana</a>. &copy; 2024</p>
+      </div>
+    </footer>
+
+    <!-- Script feather -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Script js -->
+    <script src="script.js"></script>
+  </body>
+</html>
